@@ -1,0 +1,108 @@
+/* ==========================================
+   CONFIGURACIÓN GENERAL
+   ========================================== */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    background-color: #f5f3fa; /* Tono lila/gris muy suave y moderno */
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================================
+   ENCABEZADO Y NAVEGACIÓN
+   ========================================== */
+header {
+    background: linear-gradient(135deg, #6f42c1, #563d7c) !important;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ==========================================
+   CONTENEDORES, ARTÍCULOS Y TARJETAS
+   ========================================== */
+article, section, .card {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+article:hover, section:hover, .card:hover {
+    box-shadow: 0 .5rem 1rem rgba(111, 66, 193, 0.08) !important;
+}
+
+/* Bordes decorativos personalizados */
+.border-primary {
+    border-color: #6f42c1 !important;
+}
+
+/* ==========================================
+   TABLAS Y ALERTAS
+   ========================================== */
+.table-primary {
+    background-color: #e2d9f3 !important;
+    color: #4a2e80;
+}
+
+.alert-info {
+    background-color: #f0ebf8;
+    border-color: #d8cceb;
+    color: #4a2e80;
+}
+
+/* ==========================================
+   BARRA LATERAL (ASIDE) Y CRÉDITOS
+   ========================================== */
+aside {
+    background-color: #ffffff !important;
+    border: 1px solid #e9ecef;
+}
+
+aside a {
+    color: #6f42c1;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+aside a:hover {
+    color: #563d7c;
+    text-decoration: underline !important;
+}
+
+/* ==========================================
+   BOTONES Y FORMULARIO
+   ========================================== */
+.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+    background-color: #563d7c;
+    border-color: #563d7c;
+}
+
+.btn-outline-primary {
+    color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    color: #ffffff;
+}
+
+/* ==========================================
+   PIE DE PÁGINA (FOOTER)
+   ========================================== */
+footer {
+    background-color: #212529 !important;
+    color: #ffffff;
+}
